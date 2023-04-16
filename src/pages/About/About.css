@@ -1,0 +1,13 @@
+.info-image {
+    width: 50%;
+}
+
+
+.info-container {
+    display: flex;
+
+}
+
+.info-text {
+    color: black;
+}

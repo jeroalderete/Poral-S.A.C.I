@@ -1,0 +1,72 @@
+.grid-container-horarios {
+    padding-top: 3rem;
+    display: grid;
+    grid-template-areas: "main-hero-horarios" "main-section-horarios-flex" "main-title-horarios";
+
+}
+
+.grid-container-horarios .main-hero-horarios {
+    height: 60vh;
+    grid-area: main-hero-horarios;
+    background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)), url(../../../public/assets/bannerdef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.logo-hero {
+    width: 450px;
+
+}
+
+
+}
+
+h2 {
+    font-weight: 600
+}
+
+p {
+    color: white;
+    font-weight: 600
+}
+
+.grid-container-horarios .main-hero-horarios section {
+    height: 100%;
+}
+
+.grid-container-horarios .main-hero-horarios section .main-section-horarios-flex {
+    padding-top: 2rem;
+    grid-area: main-section-horarios-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container-horarios .main-hero-horarios section .main-section-horarios-flex .main-title-horarios {
+    grid-area: main-title-horarios;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.grid-container-horarios .main-hero-horarios section ul {
+    text-align: center;
+    color: whitesmoke;
+    list-style-type: none;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 4rem;
+    border: 1px solid whitesmoke;
+    width: 90%;
+    height: 100%;
+    font-family: "Roboto Condensed";
+}
