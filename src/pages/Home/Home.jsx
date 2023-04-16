@@ -6,7 +6,7 @@ import bgImage from "../../../public/assets/griferia1.jpg";
 import bgImage2 from "../../../public/assets/ceramicos1.jpg";
 import bgImage3 from "../../../public/assets/historia.jpg";
 import HeroImage from "../../components/HeroImage/HeroImage";
-// df
+// dfsd
 const ItemListContainer = ({ categoryId, CategoryRoute }) => {
   useEffect(() => {}, [categoryId]);
 
