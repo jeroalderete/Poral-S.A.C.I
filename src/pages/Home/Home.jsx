@@ -46,9 +46,9 @@ const ItemListContainer = ({ categoryId, CategoryRoute }) => {
         <div></div>
         <div className="boton-container"></div>
       </div>
-      
+
       <HeroImage
-        title="Más de 60 años en el mercado de la construcción"
+        title2="Más de 60 años en el mercado de la construcción"
         text1="A mediado de la década del 40, Hugo Porta junto a Ricardo Alvarado"
         text2="y con la ayuda de Enrique Alvarado, deciden fundar una empresa
         dedicada a la distribución de artículos sanitarios."

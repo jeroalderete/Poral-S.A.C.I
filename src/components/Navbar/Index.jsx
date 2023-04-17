@@ -59,17 +59,10 @@ const Navbar = () => {
               OBRAS
             </NavLink>
           </li>
+
           <li className="md:ml-4 text-sm">
             <NavLink
-              to="/tienda"
-              className="nav-text text-gray-800 hover:text-gray-400 duration-500"
-            >
-              TIENDA
-            </NavLink>
-          </li>
-          <li className="md:ml-4 text-sm">
-            <NavLink
-              to="/contacto"
+              to="/contact"
               className="nav-text text-gray-800 hover:text-gray-400 duration-500"
             >
               CONTACTO

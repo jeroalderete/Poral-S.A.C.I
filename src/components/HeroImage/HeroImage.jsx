@@ -1,17 +1,24 @@
 import "./HeroImage.css";
 
-const HeroImage = ({ title, text1, text2 }) => {
+
+const HeroImage = ({
+  heroImageBackground,
+  title,
+  title2,
+  text1,
+  text2,
+  imgSrc,
+}) => {
   return (
     <div className="hero-container">
-      <div class="grid-container-horarios">
-        <div class="main-hero-horarios">
+      <div class="grid-container-hero">
+        <div class="main-hero-image">
+          {heroImageBackground}
           <section>
-            <div class="main-section-horarios-flex">
-              <img
-                className="logo-hero"
-                src="../../../public/assets/logo1-2.png"
-              />
-              <h2 className="text-3xl pt-10">{title}</h2>
+            <div class="main-section-hero-flex">
+              <img className="logo-hero" src={imgSrc} />
+              <h1 className="contact-title">{title}</h1>
+              <h2 className="text-3xl pt-10">{title2}</h2>
               <p className="text-1xl pt-10">{text1}</p>
               <p className="text-1xl ">{text2}</p>
             </div>

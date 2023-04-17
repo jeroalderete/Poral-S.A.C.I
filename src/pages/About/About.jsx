@@ -1,10 +1,11 @@
 import HeroImage from "../../components/HeroImage/HeroImage";
 import "./About.css";
+import logoImage from "../../../public/assets/logo1-2.png";
 
 const About = () => {
   return (
     <div className="container-about">
-      <HeroImage />
+      <HeroImage imgSrc={logoImage} />
       <h1 className="title text-center pt-10">NUESTRA HISTORIA</h1>
       <div className="main-container">
         <h2 className="text-end subtitle1">2022</h2>
