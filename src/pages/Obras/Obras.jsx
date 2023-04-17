@@ -1,8 +1,11 @@
 import "./Obras.css";
+import "../../components/HeroImage/HeroImage.css";
+import HeroImage from "../../components/HeroImage/HeroImage";
 
 const Obras = () => {
   return (
     <div className="container">
+      <HeroImage />
       <h1 className="title">OBRAS</h1>
 
       <div className="flex-container">
