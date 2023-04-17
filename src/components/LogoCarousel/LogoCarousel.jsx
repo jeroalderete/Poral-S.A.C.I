@@ -23,7 +23,7 @@ class LogoCarousel extends Component {
           <div className="container">
             <img
               className="img-logo"
-              src="../../../public/assets/amanco1.png"
+              src="../../../public/assets/peisadefinitivo.png"
             />
           </div>
           <div className="container">

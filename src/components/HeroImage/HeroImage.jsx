@@ -12,7 +12,7 @@ const HeroImage = ({ title, text1, text2 }) => {
             />
             <h2 className="text-3xl pt-10">{title}</h2>
             <p className="text-1xl pt-10">{text1}</p>
-            <p className="text-1xl">{text2}</p>
+            <p className="text-1xl ">{text2}</p>
           </div>
         </section>
       </main>

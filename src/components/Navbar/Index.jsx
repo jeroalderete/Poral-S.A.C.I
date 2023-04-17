@@ -24,7 +24,7 @@ const Navbar = () => {
       className="navbar shadow-md w-full fixed top-0 left-0"
       style={{ fontSize: isScrolling ? 15 : null }}
     >
-      <div className="md:flex items-center justify-start bg-black py-6 md:px-10 px-7 mx-3">
+      <div className="md:flex items-center justify-start  py-6 md:px-10 px-7 mx-3">
         <NavLink to="/">
           <div>
             <img
