@@ -77,9 +77,9 @@ footer .content .right input[type="submit"] {
 }
 
 hr {
+    display: none;
     width: 100vw;
     color: white;
-
 }
 
 footer .bottom {

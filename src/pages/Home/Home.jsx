@@ -5,6 +5,7 @@ import Card from "../../components/Card/Card";
 import bgImage from "../../../public/assets/griferia1.jpg";
 import bgImage2 from "../../../public/assets/ceramicos1.jpg";
 import bgImage3 from "../../../public/assets/historia.jpg";
+import logoHero from "../../../public/assets/logo1-2.png";
 import HeroImage from "../../components/HeroImage/HeroImage";
 
 const ItemListContainer = ({ categoryId }) => {
@@ -49,6 +50,7 @@ const ItemListContainer = ({ categoryId }) => {
 
       <HeroImage
         title2="Más de 60 años en el mercado de la construcción"
+        imgSrc={logoHero}
         text1="A mediado de la década del 40, Hugo Porta junto a Ricardo Alvarado"
         text2="y con la ayuda de Enrique Alvarado, deciden fundar una empresa
         dedicada a la distribución de artículos sanitarios."

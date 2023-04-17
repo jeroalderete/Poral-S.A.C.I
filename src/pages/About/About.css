@@ -87,3 +87,8 @@
     border-style: solid;
     color: #0084d6;
 }
+
+.img-logo-about {
+    padding-top: 10rem;
+    color: black !important;
+}
