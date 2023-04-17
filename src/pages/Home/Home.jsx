@@ -6,8 +6,8 @@ import bgImage from "../../../public/assets/griferia1.jpg";
 import bgImage2 from "../../../public/assets/ceramicos1.jpg";
 import bgImage3 from "../../../public/assets/historia.jpg";
 import HeroImage from "../../components/HeroImage/HeroImage";
-// dfsd
-const ItemListContainer = ({ categoryId, CategoryRoute }) => {
+
+const ItemListContainer = ({ categoryId }) => {
   useEffect(() => {}, [categoryId]);
 
   return (
@@ -16,7 +16,7 @@ const ItemListContainer = ({ categoryId, CategoryRoute }) => {
         <img className="img-inicio" src="../../../public/assets/inicio3.png" />
       </div>
       <LogoCarousel />
-      <div className="md:flex justify-between ml-4 mr-4">
+      <div className="card-container md:flex gap-6 justify-between px-1 mr-4">
         <Card imgSrc={bgImage}>
           <h3 className="text-xl font-bold mb-2 text-center">PRODUCTOS</h3>
           <button className="btn bg-black px-10">TIENDA</button>

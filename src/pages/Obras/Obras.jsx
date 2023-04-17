@@ -33,14 +33,16 @@ const Obras = () => {
             className="img-obras-container"
             src="../../../public/assets/Hotel-Hilton-Garden-Inn-Neuquen.png"
           />
-          <h2 className="title-obras">Hotel Hilton Garden Inn Neuquén</h2>
+          <h3 className="title-obras text-center">
+            Hotel Hilton Garden Inn Neuquén
+          </h3>
         </div>
-        <div className="img-container">
+        <div className="img-container text-center">
           <img
             className="img-obras-container"
             src="../../../public/assets/Torre-Coca-Cola.png"
           />
-          <h2 className="title-obras">Torre Coca Cola</h2>
+          <h3 className="title-obras text-center">Torre Coca Cola</h3>
         </div>
       </div>
 
@@ -50,14 +52,14 @@ const Obras = () => {
             className="img-obras-container"
             src="../../../public/assets/Complejo-Domus-Parque.png"
           />
-          <h2 className="title-obras">Complejo Domus Parque</h2>
+          <h3 className="title-obras text-center">Complejo Domus Parque</h3>
         </div>
         <div className="img-container">
           <img
             className="img-obras-container"
             src="../../../public/assets/libertador2.png"
           />
-          <h2 className="title-obras">Edificio Wave Libertador</h2>
+          <h4 className="title-obras text-center">Edificio Wave Libertador</h4>
         </div>
       </div>
       <div className="flex-container">
@@ -66,14 +68,14 @@ const Obras = () => {
             className="img-obras-container"
             src="../../../public/assets/grandbourg1.png"
           />
-          <h2 className="title-obras ">Torre Grand Bourg</h2>
+          <h4 className="title-obras text-center">Torre Grand Bourg</h4>
         </div>
         <div className="img-container">
           <img
             className="img-obras-container"
             src="../../../public/assets/Torres-Renoir.png"
           />
-          <h2 className="title-obras">Torres Renoir</h2>
+          <h4 className="title-obras text-center">Torres Renoir</h4>
         </div>
       </div>
       <div className="flex-container">
@@ -82,14 +84,14 @@ const Obras = () => {
             className="img-obras-container"
             src="../../../public/assets/Grace-Cafayate-Hotel.png"
           />
-          <h2 className="title-obras">Grace Cafayate Hotel</h2>
+          <h4 className="title-obras text-center">Grace Cafayate Hotel</h4>
         </div>
         <div className="img-container">
           <img
             className="img-obras-container"
             src="../../../public/assets/Sheratón-Tucumán-Hotel.png"
           />
-          <h2 className="title-obras">Sheraton Tucumán Hotel</h2>
+          <h5 className="title-obras text-center">Sheraton Tucumán Hotel</h5>
         </div>
       </div>
     </div>

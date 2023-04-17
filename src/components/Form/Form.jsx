@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Form.css";
+import { Suppliers } from "../Suppliers/Suppliers";
 
 const Formulario = () => {
   const [inputNombre, cambiarInputNombre] = useState("");
@@ -40,9 +41,11 @@ const Formulario = () => {
       </div>
 
       <form action="" onSubmit={handleSubmit} className="formulario">
-        <h1 className="form-title">Envíanos tu consulta</h1>
+        <h1 className="form-title pb-10">Envíanos tu consulta</h1>
         <div>
-          <label htmlFor="nombre">Nombre</label>
+          <label className="required" htmlFor="nombre">
+            Nombre
+          </label>
           <input
             required
             type="text"
@@ -55,8 +58,11 @@ const Formulario = () => {
         </div>
 
         <div>
-          <label htmlFor="correo">E-Mail</label>
+          <label className="required" htmlFor="correo">
+            E-Mail
+          </label>
           <input
+            className="control-label"
             type="text"
             name="correo"
             placeholder="Correo"
@@ -68,19 +74,16 @@ const Formulario = () => {
 
         <div>
           <label htmlFor="correo">Seleccione Un Rubro</label>
-          <input
-            type="text"
-            name="rubro"
-            placeholder="Seleccione Un Rubro"
-            id="rubro"
-          />
+          <Suppliers />
         </div>
         <div>
           <label htmlFor="correo">Asunto</label>
           <input type="text" name="Asunto" placeholder="Asunto" id="asunto" />
         </div>
         <div>
-          <label for="message">Escriba su mensaje</label>
+          <label className="required" for="message">
+            Escriba su mensaje
+          </label>
           <textarea
             type="text"
             id="message"

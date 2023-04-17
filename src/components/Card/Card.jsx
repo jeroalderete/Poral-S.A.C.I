@@ -4,7 +4,7 @@ export default function ImageCard({ children, imgSrc, props }) {
   return (
     <div
       {...props}
-      className="card-container relative max-w-xs overflow-hidden  shadow-lg group"
+      className="card-container relative max-w-xm overflow-hidden shadow-lg group"
     >
       <img
         src={imgSrc}
