@@ -3,17 +3,17 @@ import "./About.css";
 
 const About = () => {
   return (
-    <div className="pt-10">
+    <div>
       <HeroImage />
       <h1 className="title text-center pt-10">NUESTRA HISTORIA</h1>
-
-      <div>
-        <div className="image-container-left">
+      <div className="main-container">
+        <h2 className="text-end subtitle1">2022</h2>
+        <div class="flex-container-about">
           <img
-            className="info-image pt-10"
+            className="info-image"
             src="../../../public/assets/bannerdef.png"
           />
-          <h2 className=" text-start subtitle pt-20 pb-10">2022</h2>
+
           <p className="info-text">
             A mediados de la década del 40, Hugo Porta junto a Ricardo Alvarado
             y con la ayuda de Enrique Alvarado, deciden fundar una empresa
@@ -23,17 +23,8 @@ const About = () => {
           </p>
         </div>
 
-        <div className="section2">
-          <div className="image-container-right">
-            <img
-              className="info-image"
-              src="../../../public/assets/bannerdef.png"
-            />
-
-            <h2 className="text-start subtitle ml-20 pt-20">PORAL</h2>
-          </div>
-
-          <p className="info-text pt-5 p-10">
+        <div class="flex-container-about2">
+          <p className="info-text">
             Nuestra misión es optimizar tiempos y aportar calidad para ser los
             líderes en la distribución de sanitarios, vinculando la producción
             con el consumo. La cumplimos rodeados de un excelente equipo,
@@ -42,7 +33,13 @@ const About = () => {
             generaciones y continuaremos con nuestro esfuerzo para mantener el
             liderazgo en el mercado argentino.
           </p>
+          <img
+            className="info-image"
+            src="../../../public/assets/bannerdef.png"
+          />
         </div>
+        <h2 className="subtitle2">PORAL</h2>
+
         <hr className="divider"></hr>
       </div>
     </div>

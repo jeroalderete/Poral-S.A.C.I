@@ -6,7 +6,7 @@
 }
 
 .grid-container-horarios .main-hero-horarios {
-    height: 100vh;
+    height: 80vh;
     grid-area: main-hero-horarios;
     background-image: linear-gradient(rgba(16, 16, 16, 0.4), rgba(16, 16, 16, 0.4)), url(../../../public/assets/bannerdef.png);
     background-repeat: no-repeat;

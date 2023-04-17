@@ -3,7 +3,7 @@ import "./HeroImage.css";
 const HeroImage = ({ title, text1, text2 }) => {
   return (
     <div class="grid-container-horarios">
-      <main class="main-hero-horarios">
+      <div class="main-hero-horarios">
         <section>
           <div class="main-section-horarios-flex">
             <img
@@ -15,7 +15,7 @@ const HeroImage = ({ title, text1, text2 }) => {
             <p className="text-1xl ">{text2}</p>
           </div>
         </section>
-      </main>
+      </div>
     </div>
   );
 };
