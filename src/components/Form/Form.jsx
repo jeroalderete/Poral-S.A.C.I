@@ -27,7 +27,7 @@ const Formulario = () => {
   };
 
   return (
-    <div className="flex-form-container">
+    <div className="flex-form-container gap-10">
       <div className="info-container">
         <p>poralonline@gmail.com</p>
         <p>0230-449-4143 </p>

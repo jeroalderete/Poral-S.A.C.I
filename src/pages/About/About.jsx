@@ -4,12 +4,14 @@ import "./About.css";
 const About = () => {
   return (
     <div className="container-about">
-      <HeroImage>
+      <HeroImage></HeroImage>
+      <div className="logo-container-about">
         <img
           className="img-logo-about"
           src="../../../public/assets/logo1-2.png"
         />
-      </HeroImage>
+      </div>
+
       <h1 className="title text-center pt-10">NUESTRA HISTORIA</h1>
       <div className="main-container">
         <h2 className="text-end subtitle1">2022</h2>
@@ -29,7 +31,7 @@ const About = () => {
         </div>
 
         <div class="flex-container-about2">
-          <p className="info-text">
+          <p className="info-text2">
             Nuestra misión es optimizar tiempos y aportar calidad para ser los
             líderes en la distribución de sanitarios, vinculando la producción
             con el consumo. La cumplimos rodeados de un excelente equipo,

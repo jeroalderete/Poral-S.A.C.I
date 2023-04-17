@@ -13,7 +13,7 @@
 .subtitle1 {
     position: relative;
     top: 50px;
-    right: 550px;
+    right: 510px;
     font-size: 2.625rem;
     font-weight: 700;
     line-height: 1.3;
@@ -77,10 +77,17 @@
 
 .info-text {
     padding-top: 100px !important;
+    padding: 30px;
+    color: black;
+}
+
+
+.info-text2 {
+    padding-top: 250px !important;
     padding: 60px;
     color: black;
-
 }
+
 
 .divider {
     width: 80px;
@@ -88,7 +95,18 @@
     color: #0084d6;
 }
 
+.logo-container-about {
+    width: 100vw;
+    height: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .img-logo-about {
-    padding-top: 10rem;
-    color: black !important;
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+    width: 400px;
 }

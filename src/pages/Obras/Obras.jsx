@@ -6,7 +6,13 @@ import HeroImage from "../../components/HeroImage/HeroImage";
 const Obras = () => {
   return (
     <div className="container">
-      <HeroImage imgSrc={logoImage} />
+      <HeroImage />
+      <div className="logo-container-about">
+        <img
+          className="img-logo-about"
+          src="../../../public/assets/logo1-2.png"
+        />
+      </div>
       <h1 className="title">OBRAS</h1>
 
       <div className="flex-container">
