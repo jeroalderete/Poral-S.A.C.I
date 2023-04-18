@@ -10,11 +10,6 @@
     width: 50%;
 }
 
-a {
-    cursor: pointer;
-    color: white !important;
-}
-
 .button-cart:hover {
     border: 1px solid black;
 }
@@ -29,4 +24,16 @@ a {
 
 .nav-text {
     font-weight: 600;
+}
+
+.flex-links {
+    margin-right: 45rem;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .img-logo {
+        display: none;
+    }
 }
