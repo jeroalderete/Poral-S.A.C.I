@@ -15,6 +15,7 @@ import ErrorPage from "./routes/ErrorPage";
 import About from "./pages/About/About";
 import Obras from "./pages/Obras/Obras";
 import Contact from "./pages/Contact/Contact";
+import Store from "./pages/Store/Store";
 
 // CSS Imports
 
@@ -41,6 +42,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/store",
+        element: <Store />,
       },
     ],
   },

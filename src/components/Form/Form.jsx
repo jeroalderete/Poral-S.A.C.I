@@ -1,27 +1,19 @@
 import React, { useState } from "react";
 import "./Form.css";
-import { Suppliers } from "../Suppliers/Suppliers";
+import { RubrosSelect } from "../RubrosSelect/RubrosSelect";
 
 const Formulario = () => {
   const [inputNombre, cambiarInputNombre] = useState("");
   const [inputCorreo, cambiarInputCorreo] = useState("");
 
-  // Funcion que se encargara de validar los datos y enviar el formulario
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Comprobamos validacion del formulario ...
-    // Si todo es correcto enviamos el formulario
-
-    console.log("Formulario Enviado!");
   };
 
-  // Funcion que se encarga de cambiar el estado del inputNombre
   const handleInputNombre = (e) => {
     cambiarInputNombre(e.target.value);
   };
 
-  // Funcion que se encarga de cambiar el estado del inputCorreo
   const handleInputCorreo = (e) => {
     cambiarInputCorreo(e.target.value);
   };
@@ -74,7 +66,7 @@ const Formulario = () => {
 
         <div>
           <label htmlFor="correo">Seleccione Un Rubro</label>
-          <Suppliers />
+          <RubrosSelect />
         </div>
         <div>
           <label htmlFor="correo">Asunto</label>
@@ -94,27 +86,12 @@ const Formulario = () => {
           ></textarea>
         </div>
 
-        <button type="submit">Enviar</button>
+        <button className="submit-button" type="submit">
+          Enviar
+        </button>
       </form>
     </div>
   );
 };
 
 export default Formulario;
-
-{
-  /* <const Form = () => {
-  return (
-    <div>
-      <form>
-    
-      </form>
-    </div>
-  );
-};
-
-export default Form;
->
-
-    asdad */
-}

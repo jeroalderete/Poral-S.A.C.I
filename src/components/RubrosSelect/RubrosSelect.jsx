@@ -8,7 +8,7 @@ const dbRubros = [
   { id: 4, rubro: "Distribuidor" },
 ];
 
-export const Suppliers = () => {
+export const RubrosSelect = () => {
   const handleSelectChange = (event) => {
     console.log(event);
   };

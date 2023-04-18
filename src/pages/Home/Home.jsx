@@ -1,4 +1,5 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import "./Home.css";
 import LogoCarousel from "../../components/LogoCarousel/LogoCarousel";
 import Card from "../../components/Card/Card";
@@ -20,7 +21,9 @@ const ItemListContainer = ({ categoryId }) => {
       <div className="card-container md:flex gap-6 justify-between px-1 mr-4">
         <Card imgSrc={bgImage}>
           <h3 className="text-xl font-bold mb-2 text-center">PRODUCTOS</h3>
-          <button className="btn bg-black px-10">TIENDA</button>
+          <Link to="/store">
+            <button className="btn bg-black px-10">TIENDA</button>
+          </Link>
         </Card>
         <Card imgSrc={bgImage2}>
           <h3 className="text-xl font-bold mb-2">NEWSLETTER</h3>
@@ -40,7 +43,9 @@ const ItemListContainer = ({ categoryId }) => {
         </Card>
         <Card imgSrc={bgImage3}>
           <h3 className="text-xl text-center font-bold mb-2">COTIZACIONES</h3>
-          <button className="btn bg-black px-7">CONTACTO</button>
+          <Link to="/contact">
+            <button className="btn bg-black px-7">CONTACTO</button>
+          </Link>
         </Card>
       </div>
       <div className="grid">

@@ -26,12 +26,7 @@ const Navbar = () => {
     >
       <div className="md:flex items-center justify-start  py-6 md:px-10 px-7 mx-3">
         <NavLink to="/">
-          <div>
-            <img
-              className="img-logo"
-              src="../../../public/assets/logo1-2.png"
-            />
-          </div>
+          <img className="img-logo" src="../../../public/assets/logo1-2.png" />
         </NavLink>
 
         <ul className="md:flex md: items-center">
