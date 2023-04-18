@@ -1,6 +1,6 @@
-# Ecommerce Website - Batacazo :globe_with_meridians:
+# Website - Poral S.A.C.I :globe_with_meridians:
 
-## _Fashion Design And Home Wear Website._ :shopping:
+## _Pagina Web Sobre Materiales de Construccion y Griferias._
 
 ### CREADO POR JERONIMO ALDERETE :hammer_and_pick:
 
@@ -13,13 +13,13 @@
 Clonar el proyecto
 
 ```sh
-- git clone https://github.com/jeroalderete/Batacazo-Ecommerce-Entrega-Final
+- git clone https://github.com/jeroalderete/Poral-S.A.C.I
 ```
 
 Ir a la carpeta del proyecto
 
 ```bash
-  cd Batacazo-Ecommerce-Entrega-Final
+  cd Poral-S.A.C.I
 ```
 
 Instalar dependencias
@@ -36,14 +36,13 @@ Start server
 
 # Screenshots
 
-![](https://i.ibb.co/BNgNVn3/batacazo3.png)
-![](https://i.ibb.co/F7rFpPk/batacazo-4.png)
-![](https://i.ibb.co/WHDPk1x/Batacazo1.png)
-![](https://i.ibb.co/vxHmrvV/checkout.png)
-
-## GIF DEL PROYECTO
-
-![Top Running y 2 páginas más - Personal_ Microsoft_ Edge 2023-03-31 21-29-25 (1)](https://s2.gifyu.com/images/ezgif.com-crop67a0f7d9ec465515.gif)
+![](https://i.ibb.co/pP8wdH0/2023-04-17-8-poral5.png)
+![](https://i.ibb.co/P6JyyJd/poral1.png)
+![](https://i.ibb.co/DVMmpfW/poral2.png)
+![](https://i.ibb.co/TPv6F3T/poral3.png)
+![](https://i.ibb.co/71vsL76/poral4.png)
+![](https://i.ibb.co/bbyhQDG/poral6.png)
+![](https://i.ibb.co/sJjjSgc/poral7.png)
 
 ## Links
 
