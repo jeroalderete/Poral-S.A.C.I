@@ -1,30 +1,26 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const navlinks = [
-  {
-    title: "Home",
-    link: "/",
-  },
-  {
-    title: "About",
-    link: "/about",
-  },
-  {
-    title: "Obras",
-    link: "/obras",
-  },
-  {
-    title: "Home",
-    link: "/",
-  },
-];
-
 const Navbar2 = () => {
+  const [isScrolling, setIsScrolling] = useState(false);
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 5) {
+        setIsScrolling(true);
+      } else {
+        setIsScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   const handleMenu = () => {
     setOpen((prev) => !prev);
@@ -32,8 +28,11 @@ const Navbar2 = () => {
   };
 
   return (
-    <div className="bg-black">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8">
+    <div
+      className="navbar shadow-md w-full fixed top-0 left-0"
+      style={{ fontSize: isScrolling ? 15 : null }}
+    >
+      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-5 ">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <NavLink to="/">
@@ -77,7 +76,7 @@ const Navbar2 = () => {
           </div>
           <div className="flex items-center justify-between h-16">
             {/*    hamburguer button  */}
-            <div>
+            <div className="hamburger-menu">
               <button
                 type="button"
                 onClick={handleMenu}

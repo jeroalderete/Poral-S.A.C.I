@@ -32,6 +32,14 @@
 }
 
 
+
+@media screen and (min-width: 720px) {
+
+    .hamburger-menu {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .img-logo {
         display: none;

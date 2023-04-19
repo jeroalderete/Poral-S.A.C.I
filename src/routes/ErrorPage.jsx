@@ -1,5 +1,5 @@
 import { Link, useRouteError } from "react-router-dom";
-import Navbar2 from "../components/Navbar2/Navbar2.jsx";
+import Navbar from "../components/Navbar/Navbar.jsx";
 import Footer from "../components/Footer";
 import "./App.css";
 
@@ -8,7 +8,7 @@ const ErrorPage = () => {
 
   return (
     <main>
-      <Navbar2 />
+      <Navbar />
       <div className="error-container text-center">
         <h1>
           <strong>OOPS!</strong>
