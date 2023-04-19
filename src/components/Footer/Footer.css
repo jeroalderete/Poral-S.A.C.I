@@ -2,20 +2,22 @@
 
 
 footer {
+
     width: 100%;
+    height: 100%;
     bottom: 0;
     left: 0;
-
 }
 
 footer .content {
     max-width: 100%;
     margin: auto;
+
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background: #111;
+    background-color: black;
 }
 
 footer .content p,
@@ -24,8 +26,9 @@ a {
 }
 
 footer .content .box {
-    width: 33%;
+    width: 40%;
     transition: all 0.4s ease;
+
 }
 
 footer .content .topic {
@@ -34,10 +37,12 @@ footer .content .topic {
     color: #fff;
     margin-bottom: 16px;
     text-transform: uppercase;
-
 }
 
 footer .content p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
     text-align: justify;
 }
 
@@ -49,7 +54,20 @@ footer .content .lower i {
     padding-right: 16px;
 }
 
+footer .content .right {
+    text-align: center;
+}
 
+footer .content .right .newsletter-text {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.label-newsletter {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+}
 
 footer .content .right input[type="text"] {
     height: 45px;
@@ -58,26 +76,45 @@ footer .content .right input[type="text"] {
     color: #d9d9d9;
     background: white;
     border-radius: 5px;
+    margin-top: 2rem;
     padding-left: 10px;
     font-size: 17px;
     border: 2px solid #222222;
 }
 
 footer .content .right input[type="submit"] {
-    height: 42px;
+    height: 40px;
     width: 100%;
     font-size: 18px;
     color: white;
-    background: grey;
+    background: rgb(61, 61, 61);
     outline: none;
     letter-spacing: 1px;
     cursor: pointer;
     margin-top: 12px;
     transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
 }
 
-hr {
-    display: none;
+.divisor1 {
+    margin-top: 3rem !important;
+    width: 55vw;
+    color: white;
+}
+
+.divisor2 {
+    margin-top: 1rem !important;
+    width: 55vw;
+    color: white;
+}
+
+.divisor3 {
+    margin-top: 1rem !important;
+    width: 55vw;
+    color: white;
+}
+
+.divisor {
     width: 100vw;
     color: white;
 }
@@ -88,7 +125,7 @@ footer .bottom {
     text-align: left;
     color: #d9d9d9;
     padding: 0 40px 5px 0;
-    background: #111;
+    background-color: black;
 }
 
 footer .bottom a {
