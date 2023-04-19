@@ -1,25 +1,16 @@
 import React from "react";
 import "./styles.css";
+import HeroImage from "../../components/HeroImage/HeroImage";
+import logoHero from "../../../public/assets/logo1-2.png";
+import ImageTextAside from "../../components/ImageTextAside/ImageTextAside";
 
-const ImageText = ({ imageSrc, title, description, isReverse }) => {
+const About = () => {
   return (
-    <div className={`image-text ${isReverse ? "reverse" : ""}`}>
-      <div className="image">
-        <img src={imageSrc} alt={title} />
-      </div>
-      <div className="text">
-        <h2 className="image-title">{title}</h2>
-        <p className="image-description">{description}</p>
-      </div>
-    </div>
-  );
-};
+    <>
+      <HeroImage imgSrc={logoHero} />
 
-const ImageTextComponent = () => {
-  return (
-    <div className="container">
       <h1 className="title text-center pt-10">NUESTRA HISTORIA</h1>
-      <ImageText
+      <ImageTextAside
         imageSrc="../../../public/assets/bannerdef.png"
         title="2022"
         description="A mediados de la década del 40, Hugo Porta junto a Ricardo Alvarado
@@ -28,7 +19,7 @@ const ImageTextComponent = () => {
         como un pequeño emprendimiento familiar bajo el nombre Casa Pico,
         hoy es PORAL S.A.C.I"
       />
-      <ImageText
+      <ImageTextAside
         imageSrc="../../../public/assets/bannerdef.png"
         title="Poral"
         description="Nuestra misión es optimizar tiempos y aportar calidad para ser los líderes en la distribución de sanitarios, vinculando la producción con el consumo. 
@@ -36,8 +27,8 @@ const ImageTextComponent = () => {
          generaciones y continuaremos con nuestro esfuerzo para mantener el liderazgo en el mercado argentino. "
         isReverse={true}
       />
-    </div>
+    </>
   );
 };
 
-export default ImageTextComponent;
+export default About;

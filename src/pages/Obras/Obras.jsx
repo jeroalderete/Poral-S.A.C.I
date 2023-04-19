@@ -1,19 +1,14 @@
 import "./Obras.css";
 import "../../components/HeroImage/HeroImage.css";
-import logoImage from "../../../public/assets/logo1-2.png";
+import logoHero from "../../../public/assets/logo1-2.png";
 import HeroImage from "../../components/HeroImage/HeroImage";
 
 const Obras = () => {
   return (
     <div className="container-obras">
-      <HeroImage />
-      <div className="logo-container-about">
-        <img
-          className="img-logo-about"
-          src="../../../public/assets/logo1-2.png"
-        />
-      </div>
-      <h1 className="title">OBRAS</h1>
+      <HeroImage imgSrc={logoHero} />
+
+      <h1 className="title pt-20">OBRAS</h1>
 
       <div className="flex-container">
         <div className="img-container">
