@@ -5,7 +5,7 @@ import HeroImage from "../../components/HeroImage/HeroImage";
 
 const Obras = () => {
   return (
-    <div className="container">
+    <div className="container-obras">
       <HeroImage />
       <div className="logo-container-about">
         <img

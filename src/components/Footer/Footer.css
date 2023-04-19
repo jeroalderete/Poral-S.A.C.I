@@ -92,15 +92,11 @@ footer .bottom {
 }
 
 footer .bottom a {
-    color: #eb2f06;
+    color: white;
 }
 
 footer a {
     transition: all 0.3s ease;
-}
-
-footer a:hover {
-    color: #eb2f06;
 }
 
 .text-footer {
@@ -127,6 +123,11 @@ footer a:hover {
 @media (max-width:560px) {
     footer {
         position: relative;
+        text-align: center;
+    }
+
+    footer div .text-footer {
+        text-align: center;
     }
 
     footer .content .box {

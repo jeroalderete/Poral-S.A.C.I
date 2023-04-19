@@ -1,8 +1,6 @@
 .card-container {
     height: 70vh;
     width: 100%;
-
-
 }
 
 .cardTitle {
@@ -13,3 +11,6 @@
     height: 100vh;
     /* Or any other desired height */
 }
+
+
+
