@@ -32,48 +32,48 @@ const Navbar2 = () => {
       className="navbar shadow-md w-full fixed top-0 left-0"
       style={{ fontSize: isScrolling ? 15 : null }}
     >
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 py-5 ">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center">
-            <NavLink to="/">
-              <img
-                className="img-logo"
-                src="../../../public/assets/logo1-2.png"
-              />
+      <div className="flex items-center mx-auto px-4 sm:px-6 lg:px-8 py-5 ">
+        {/*        navlinks */}
+        <div className="flex items-center">
+          <NavLink to="/">
+            <img
+              className="img-logo"
+              src="../../../public/assets/logo1-2.png"
+            />
+          </NavLink>
+        </div>
+        <div className="hidden md:block flex-links">
+          <div className="flex space-x-4 w-full justify-start">
+            <NavLink
+              to="/"
+              className="nav-text text-white hover:text-gray-400 duration-500"
+            >
+              INICIO
+            </NavLink>
+
+            <NavLink
+              to="/about"
+              className="nav-text text-white hover:text-gray-400 duration-500"
+            >
+              NOSOTROS
+            </NavLink>
+
+            <NavLink
+              to="/obras"
+              className="nav-text text-white hover:text-gray-400 duration-500"
+            >
+              OBRAS
+            </NavLink>
+
+            <NavLink
+              to="/contact"
+              className="nav-text text-white hover:text-gray-400 duration-500"
+            >
+              CONTACTO
             </NavLink>
           </div>
-          {/*        navlinks */}
-          <div className="hidden md:block  flex-links">
-            <div className="flex space-x-4 w-full justify-start">
-              <NavLink
-                to="/"
-                className="nav-text text-white hover:text-gray-400 duration-500"
-              >
-                INICIO
-              </NavLink>
-
-              <NavLink
-                to="/about"
-                className="nav-text text-white hover:text-gray-400 duration-500"
-              >
-                NOSOTROS
-              </NavLink>
-
-              <NavLink
-                to="/obras"
-                className="nav-text text-white hover:text-gray-400 duration-500"
-              >
-                OBRAS
-              </NavLink>
-
-              <NavLink
-                to="/contact"
-                className="nav-text text-white hover:text-gray-400 duration-500"
-              >
-                CONTACTO
-              </NavLink>
-            </div>
-          </div>
+        </div>
+        <div className="items-center justify-between h-16">
           <div className="flex items-center justify-between h-16">
             {/*    hamburguer button  */}
             <div className="hamburger-menu">

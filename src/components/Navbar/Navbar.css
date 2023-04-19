@@ -6,6 +6,7 @@
     background-color: black !important;
 }
 
+
 .img-logo {
     width: 50%;
 }
@@ -27,8 +28,8 @@
 }
 
 .flex-links {
-    margin-right: 45rem;
-
+    height: 100%;
+    text-align: center;
 }
 
 

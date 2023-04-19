@@ -2,11 +2,6 @@
     width: 100vw;
 }
 
-.grid-container-hero {
-    display: grid;
-    grid-template-areas: "main-hero-horarios" "main-section-horarios-flex" "main-title-horarios";
-
-}
 
 .grid-container-hero .main-hero-image {
     height: 90vh;
@@ -15,6 +10,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 

@@ -15,7 +15,7 @@ const HeroImage = ({
       <div class="grid-container-hero">
         <div class="main-hero-image">
           {heroImageBackground}
-          <section>
+          <section className="hero-content">
             <div class="main-section-hero-flex">
               <img className="logo-hero" src={imgSrc} />
               <h1 className="contact-title">{title}</h1>
