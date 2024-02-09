@@ -1,0 +1,15 @@
+.carousel{
+  max-height: 900px!important;
+}
+.carousel-root{
+  top:0;
+}
+
+@media only screen and (max-width: 680px){
+  
+    .carousel-root{
+      position:relative;
+      top: 120px!important;
+    }
+  
+}

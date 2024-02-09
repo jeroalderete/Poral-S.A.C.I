@@ -1,0 +1,59 @@
+.container {
+
+    width: 100vw;
+    padding-top: 12rem;
+}
+
+.image-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-title {
+    text-align: start;
+    color: black;
+    font-family: "Roboto", Sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 3rem;
+    margin-left: 3.9rem;
+}
+
+.image-description {
+    color: black;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    width: 100%;
+    height: 400px;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+@media only screen and (max-width: 768px) {
+    .image-text {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .image {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}

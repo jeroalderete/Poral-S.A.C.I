@@ -1,0 +1,86 @@
+/* Styling for the hero images */
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo-carousel-container {
+    position: relative;
+    top: 100px;
+}
+
+/* Styling for the cards */
+.card-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: calc(33.33% - 20px);
+    margin: 0 10px;
+    text-align: center;
+    font-family: arial;
+}
+
+
+.card img {
+    max-width: 100%;
+}
+
+.img-inicio {
+
+    width: 100%;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.email-input {
+    height: 40px;
+    width: 100%;
+    color: #d9d9d9;
+    background: white;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+
+
+/* Media queries for responsive design */
+@media screen and (max-width: 600px) {
+    .hero {
+        height: 300px;
+    }
+
+    .card-container {
+        flex-direction: column !important;
+        text-align: center;
+        justify-content: center;
+        align-items: center !important;
+        flex-wrap: nowrap !important;
+        align-items: center;
+        height: 100% !important;
+    }
+
+    .card-container img {
+        width: 250px;
+        height: auto;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px;
+    }
+}
