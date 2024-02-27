@@ -7,6 +7,7 @@ import bgImage from "../../../public/assets/griferia1.jpg";
 import bgImage2 from "../../../public/assets/ceramicos1-2.jpg";
 import bgImage3 from "../../../public/assets/historia.jpg";
 import logoHero from "../../../public/assets/logo.png";
+import Facebook from "../../components/Facebook";
 
 import HeroImage from "../../components/HeroImage/HeroImage";
 
@@ -35,6 +36,7 @@ const ItemListContainer = ({ categoryId }) => {
 
   return (
     <div className="wrapper">
+
 
 
 
@@ -96,6 +98,7 @@ const ItemListContainer = ({ categoryId }) => {
         />
       </div>
       <ButtonModal2/>
+      <Facebook/>
     </div>
   );
 };
