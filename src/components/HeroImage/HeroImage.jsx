@@ -19,8 +19,8 @@ const HeroImage = ({
             <div class="main-section-hero-flex">
               <img className="logo-hero" src={imgSrc} />
               <h1 className="contact-title">{title}</h1>
-              <h2 className="title-2 pb-3 pt-20">{title2}</h2>
-              <p className="text-1xl pt-10">{text1}</p>
+              <h2 className="title-2 pb-3 pt-10">{title2}</h2>
+              <p className="text-1xl pt-5">{text1}</p>
               <p className="text-1xl ">{text2}</p>
             </div>
           </section>

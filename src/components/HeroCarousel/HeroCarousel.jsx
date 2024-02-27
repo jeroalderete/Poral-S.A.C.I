@@ -33,6 +33,7 @@ const BannerCarousel = () => {
   return (
     <div>
       <Carousel
+  
         autoPlay={true}
         interval={5000}
         infiniteLoop={true}
@@ -44,9 +45,10 @@ const BannerCarousel = () => {
             type="button"
             onClick={onClickHandler}
             title={label}
+            className='custom-arrow-left'
             style={{ ...customArrowStyles, left: '20px' }}
           >
-            <ion-icon style={{ fontSize: '28px' }} name="chevron-back-outline"></ion-icon>
+            <ion-icon className="chevron" style={{ fontSize: '28px' }} name="chevron-back-outline"></ion-icon>
           </button>
         )}
         renderArrowNext={(onClickHandler, hasNext, label) => (
@@ -54,6 +56,7 @@ const BannerCarousel = () => {
             type="button"
             onClick={onClickHandler}
             title={label}
+            className='custom-arrow-right'
             style={{ ...customArrowStyles, right: '20px' }}
           >
             <ion-icon style={{ fontSize: '28px' }} name="chevron-forward-outline"></ion-icon>
@@ -65,6 +68,7 @@ const BannerCarousel = () => {
            <img src={image.src} alt={`Banner ${image.id}`} />
          </div>
         ))}
+        
       </Carousel>
     </div>
   );

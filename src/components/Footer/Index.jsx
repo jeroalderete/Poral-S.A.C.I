@@ -18,8 +18,8 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="pt-20">
-     
+    <footer className="pt-20">  
+
       <div className="content">
         <div className="left box">
           <div className="upper">
@@ -64,14 +64,16 @@ const Footer = () => {
         </div>
 
         <div className="right box right-box-container">
-          <div className="topic">SUSCRIBASE A NUESTRO NEWSLETTER</div>
+          <div className="topic news-title">SUSCRIBASE A NUESTRO NEWSLETTER</div>
 
           <p className="newsletter-text">
             Envíenos su correo electrónico para que reciba nuestras últimas
             novedades en productos y promociones.
           </p>
 
-          <form action="#">
+          <div className="form-container">
+
+          <form className="form" action="#">
             <labe className="label-newsletter">E-Mail</labe>
             <input className="email-input" type="text" placeholder="Email" />
             <input
@@ -81,6 +83,7 @@ const Footer = () => {
               value="SUSCRIBIRSE"
             />
           </form>
+          </div>
         </div>
       </div>
 

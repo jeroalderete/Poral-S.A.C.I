@@ -38,5 +38,16 @@
     "postcss": "^8.4.21",
     "tailwindcss": "^3.4.1",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "## _Pagina Web Sobre Materiales de Construccion y Griferias._",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "gisa"
+  },
+  "keywords": [
+    "da"
+  ],
+  "author": "dasd",
+  "license": "ISC"
 }

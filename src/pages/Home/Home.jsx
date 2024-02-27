@@ -11,6 +11,7 @@ import logoHero from "../../../public/assets/logo.png";
 import HeroImage from "../../components/HeroImage/HeroImage";
 
 import BannerCarousel from "../../components/HeroCarousel/HeroCarousel";
+import ButtonModal2 from "../../components/ButtonModal2";
 
 
 const ItemListContainer = ({ categoryId }) => {
@@ -34,9 +35,13 @@ const ItemListContainer = ({ categoryId }) => {
 
   return (
     <div className="wrapper">
+
+
+
       <header className="hero">
     <BannerCarousel/>
       </header>
+    
 
       <div className="logo-carousel-container p-20">
         <LogoCarousel className="logo-carousel" />
@@ -90,6 +95,7 @@ const ItemListContainer = ({ categoryId }) => {
         dedicada a la distribución de artículos sanitarios."
         />
       </div>
+      <ButtonModal2/>
     </div>
   );
 };

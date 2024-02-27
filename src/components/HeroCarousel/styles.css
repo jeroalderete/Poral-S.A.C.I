@@ -9,7 +9,17 @@
   
     .carousel-root{
       position:relative;
-      top: 120px!important;
+      top: 90px!important;
     }
+
+    .chevron{
+      display:none;
+    }
+
+    .custom-arrow-left,
+    .custom-arrow-right {
+        display: none;
+    }
+
   
 }

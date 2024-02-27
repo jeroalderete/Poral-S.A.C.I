@@ -40,9 +40,10 @@
     content: '';
     position: absolute;
     left: 0;
+    top:40px;
     bottom: -2px;
     width: 0;
-    height: 2px;
+    height: 1px;
     background-color: white; /* Color del subrayado */
     transition: width 0.3s ease; /* Duración de la animación */
   }

@@ -76,3 +76,16 @@ div h3 {
     transform: rotate(360deg);
   }
 }
+
+@media only screen and (max-width: 680px){
+  
+  .logo-carousel-container{
+    width:auto;
+    height:auto;
+  }
+
+  .slick-slide{
+    width:auto;
+  }
+
+}
